@@ -55,7 +55,7 @@ int main() {
         printf("1 - Cadastrar livros\n");
         printf("2 - Imprimir todos os livros\n");
         printf("3 - Pesquisar livro por codigo\n");
-        printf("4 - Ordenar livros por ano (Bubble Sort)\n");
+        printf("4 - Ordenar livros por ano\n");
         printf("5 - Sair\n");
         printf("Escolha uma opcao: ");
         scanf("%d", &opcao);
