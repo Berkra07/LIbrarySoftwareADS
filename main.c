@@ -121,7 +121,7 @@ void cadastrarLivros(struct Livro acervo[], int tamanho) {
         // Leitura do título do livro usando fgets (aceita espaços)
         printf("Titulo: ");
         fgets(acervo[i].titulo, 50, stdin);
-        acervo[i].titulo[strcspn(acervo[i].titulo, "\n")] = 0;  
+        acervo[i].titulo[strcspn(acervo[i].titulo, "\n")] = 0;
 
         printf("Autor: ");
         fgets(acervo[i].autor, 30, stdin);
